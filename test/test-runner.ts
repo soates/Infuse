@@ -30,15 +30,16 @@ export class Resolve {
     }
 }
 
+let container = Injector.Current;
 
-Injector.Current.register<ServiceA>(ServiceA);
-Injector.Current.register<ServiceB>(ServiceB);
-Injector.Current.register<ServiceC>(ServiceC);
-Injector.Current.register<ServiceD>(ServiceD);
+container.register<ServiceA>(ServiceA);
+container.register<ServiceB>(ServiceB);
+container.register<ServiceC>(ServiceC);
+container.register<ServiceD>(ServiceD);
 
-Injector.Current.register<Resolve>(Resolve);
+container.register<Resolve>(Resolve);
 
-let resolve = Injector.Current.get<Resolve>(Resolve);
+let resolve = container.get<Resolve>(Resolve);
 
 console.log(resolve);
 

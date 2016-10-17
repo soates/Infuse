@@ -13,25 +13,25 @@
     ],
     "eslint.enable": false,
     "jshint.enable": false,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        ".idea": true,
-        "coverage": true,
-        "dist": false,
-        "node_modules": false,
-        "typings": false,
-        "tmp": true,
-        "coverage-unit": true,
-        "logs": true,
-        "**/*.js.map": true,
-        "**/*.css": {
-            "when": "$(basename).less"
-        },
-        "**/*.js": {
-            "when": "$(basename).ts"
-        }
-    },
+    // "files.exclude": {
+    //     "**/.git": true,
+    //     "**/.DS_Store": true,
+    //     ".idea": true,
+    //     "coverage": true,
+    //     "dist": false,
+    //     "node_modules": false,
+    //     "typings": false,
+    //     "tmp": true,
+    //     "coverage-unit": true,
+    //     "logs": true,
+    //     "**/*.js.map": true,
+    //     "**/*.css": {
+    //         "when": "$(basename).less"
+    //     },
+    //     "**/*.js": {
+    //         "when": "$(basename).ts"
+    //     }
+    // },
     "files.watcherExclude": {
         "**/.git/objects/**": true
     },
