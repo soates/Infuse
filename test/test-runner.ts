@@ -1,6 +1,6 @@
 import "reflect-metadata";
-import { Inject } from './src/inject-meta';
-import { Injector } from './src/injector';
+import { Inject } from '../src/inject-meta';
+import { Injector } from '../src/injector';
 
 @Inject()
 export class ServiceA {
