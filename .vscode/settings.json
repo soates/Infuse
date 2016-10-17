@@ -1,0 +1,45 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "explorer.openEditors.visible": 0,
+    "relativePath.ignore": [
+        "**/node_modules/**",
+        "**/e2e/**",
+        "**/dist/**",
+        "**/tmp/**",
+        "**/*.dll"
+    ],
+    "tslint.exclude": [
+        "/dist/**/*.js"
+    ],
+    "eslint.enable": false,
+    "jshint.enable": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        ".idea": true,
+        "coverage": true,
+        "dist": false,
+        "node_modules": false,
+        "typings": false,
+        "tmp": true,
+        "coverage-unit": true,
+        "logs": true,
+        "**/*.js.map": true,
+        "**/*.css": {
+            "when": "$(basename).less"
+        },
+        "**/*.js": {
+            "when": "$(basename).ts"
+        }
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/*.js": true,
+        "**/coverage-unit": true
+    }
+}

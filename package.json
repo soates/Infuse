@@ -1,0 +1,18 @@
+{
+  "name": "tide",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.2.34",
+    "@types/reflect-metadata": "0.0.4",
+    "jasmine": "^2.5.2",
+    "reflect-metadata": "^0.1.8",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.2"
+  }
+}
